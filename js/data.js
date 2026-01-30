@@ -1072,14 +1072,6 @@ const restoMenuData = {
       image: "../assets/quinoa-bowl.jpeg",
     },
     {
-      id: "caesar-royal",
-      name: "Caesar Royal",
-      price: 9.0,
-      category: "salads",
-      ingredients: "Lettuce, croutons, parmesan & house Caesar sauce",
-      image: "../assets/caesar-royal-chicken.jpeg",
-    },
-    {
       id: "caesar-royal-chicken",
       name: "Caesar Royal (Add Chicken)",
       price: 12.0,
