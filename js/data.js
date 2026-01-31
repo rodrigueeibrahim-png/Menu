@@ -864,9 +864,13 @@ const coffeeMenuData = {
     {
       id: "tiramissu-can",
       name: "Tiramissu Can",
-      price: 6.0,
+      price: 7.0,
       category: "desserts",
     },
+    { id: "meghle", name: "Meghle", price: 7.0, category: "desserts" },
+    { id: "cookies-lotus", name: "Cookies Lotus", price: 5.0, category: "desserts" },
+    { id: "cookies-oreo", name: "Cookies Oreo", price: 5.0, category: "desserts" },
+    { id: "cookies-kinder", name: "Cookies Kinder", price: 5.0, category: "desserts" },
   ],
 };
 
@@ -1056,7 +1060,7 @@ const restoMenuData = {
     {
       id: "goat-cheese-salad",
       name: "Goat Cheese Salad",
-      price: 14.0,
+      price: 15.0,
       category: "salads",
       ingredients:
         "Greens, spinach, red apple, walnuts, dry figs, cherry tomato & balsamic",
@@ -1065,7 +1069,7 @@ const restoMenuData = {
     {
       id: "quinoa-bowl",
       name: "Quinoa Bowl",
-      price: 12.0,
+      price: 14.0,
       category: "salads",
       ingredients:
         "Mixed greens, cherry tomato, dry figs, cranberry, almonds & citrus dressing",
@@ -1074,7 +1078,7 @@ const restoMenuData = {
     {
       id: "caesar-royal-chicken",
       name: "Caesar Royal (Add Chicken)",
-      price: 12.0,
+      price: 14.0,
       category: "salads",
       ingredients: "Lettuce, croutons, parmesan & house Caesar sauce + Chicken",
       image: "../assets/caesar-royal-chicken.jpeg",
@@ -1082,7 +1086,7 @@ const restoMenuData = {
     {
       id: "shrimp-salad",
       name: "Shrimp Salad",
-      price: 15.0,
+      price: 16.0,
       category: "salads",
       ingredients:
         "Mixed greens, quinoa, cherry tomato, Indian onion, avocado & herbal dressing",
