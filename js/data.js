@@ -813,6 +813,9 @@ const coffeeMenuData = {
     },
     { id: "muffins", name: "Muffins", price: 4.0, category: "desserts" },
     { id: "cookies", name: "Cookies", price: 3.0, category: "desserts" },
+    { id: "cookies-lotus", name: "Cookies Lotus", price: 5.0, category: "desserts" },
+    { id: "cookies-oreo", name: "Cookies Oreo", price: 5.0, category: "desserts" },
+    { id: "cookies-kinder", name: "Cookies Kinder", price: 5.0, category: "desserts" },
     {
       id: "bahamas-cake",
       name: "Bahamas Cake",
@@ -868,9 +871,6 @@ const coffeeMenuData = {
       category: "desserts",
     },
     { id: "meghle", name: "Meghle", price: 7.0, category: "desserts" },
-    { id: "cookies-lotus", name: "Cookies Lotus", price: 5.0, category: "desserts" },
-    { id: "cookies-oreo", name: "Cookies Oreo", price: 5.0, category: "desserts" },
-    { id: "cookies-kinder", name: "Cookies Kinder", price: 5.0, category: "desserts" },
   ],
 };
 
