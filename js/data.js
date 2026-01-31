@@ -1014,7 +1014,7 @@ const restoMenuData = {
     {
       id: "mozzarella-sticks",
       name: "Mozzarella Sticks",
-      price: 7.0,
+      price: 8.0,
       category: "starters",
       ingredients: "Breaded mozzarella sticks with marinara sauce",
       image: "../assets/mozzarella-sticks.jpeg",
@@ -1095,7 +1095,7 @@ const restoMenuData = {
     {
       id: "fusion-crab-salad",
       name: "Fusion Crab Salad",
-      price: 12.0,
+      price: 14.0,
       category: "salads",
       ingredients: "Carrot, cucumber, strawberry, cabbage & Asian dressing",
       image: "../assets/fusion-crab-salad.jpeg",
