@@ -41,11 +41,17 @@
 
 /* ========== Category Grid (Celina-style) ========== */
 .category-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0 var(--spacing-md);
+  margin-bottom: 0.6rem;
+}
+
+.category-grid-inner {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0.5rem;
-  padding: 0 var(--spacing-md);
-  margin-bottom: 0.6rem;
 }
 
 .category-card {
@@ -129,6 +135,42 @@
   z-index: 2;
   padding: 0.3rem;
   line-height: 1.2;
+}
+
+/* Lent Menu – full-row category section at the end */
+.lent-menu-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.lent-menu-section-label {
+  font-family: var(--font-title);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--ingredients-color);
+  margin: 0 0 0.15rem 0;
+  opacity: 0.9;
+}
+
+.category-card-full-row {
+  width: 100%;
+  aspect-ratio: 6 / 1;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(87, 70, 50, 0.18);
+}
+
+.category-card-full-row .category-card-title {
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
+
+.category-card-full-row:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 12px 32px rgba(87, 70, 50, 0.28);
 }
 
 /* Show All Container */
@@ -872,9 +914,20 @@
 
 @media (max-width: 768px) {
   .category-grid {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .category-grid-inner {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
-    padding: 0 var(--spacing-sm);
+  }
+
+  .category-card-full-row {
+    aspect-ratio: 4 / 1;
+  }
+
+  .category-card-full-row .category-card-title {
+    font-size: 0.8rem;
   }
 
   .category-card-title {
@@ -942,9 +995,17 @@
 }
 
 @media (max-width: 480px) {
-  .category-grid {
+  .category-grid-inner {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.4rem;
+  }
+
+  .category-card-full-row {
+    aspect-ratio: 3 / 1;
+  }
+
+  .category-card-full-row .category-card-title {
+    font-size: 0.7rem;
   }
 
   .category-card-title {

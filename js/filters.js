@@ -41,39 +41,30 @@ function renderCategoryGrid(categories) {
 
   gridContainer.innerHTML = "";
 
-  categories.forEach((category, index) => {
-    const card = document.createElement("div");
-    card.className = "category-card";
-    card.setAttribute("data-category", category.id);
+  const regularCategories = categories.filter((c) => !c.fullRow);
+  const fullRowCategories = categories.filter((c) => c.fullRow);
 
-    // Use image if available, otherwise use gradient
-    const fallbackGradient =
-      "linear-gradient(135deg, #e4c27a 0%, #8c735b 100%)";
+  // Wrapper for standard grid (so Lent can sit below in its own section)
+  const gridInner = document.createElement("div");
+  gridInner.className = "category-grid-inner";
 
-    card.innerHTML = `
-      <div class="category-card-bg">
-        ${
-          category.image
-            ? `<img src="${category.image}" alt="${category.name}">`
-            : `<div class="category-card-gradient" style="background: ${fallbackGradient}"></div>`
-        }
-      </div>
-      <div class="category-card-overlay"></div>
-      <span class="category-card-title">${category.name}</span>
-    `;
-
-    // Click handler
-    card.addEventListener("click", () => {
-      // Special case: Drinks & Desserts redirects to coffee menu
-      if (category.id === "drinks-desserts") {
-        window.location.href = "coffee-menu.html";
-        return;
-      }
-      selectCategory(category);
-    });
-
-    gridContainer.appendChild(card);
+  regularCategories.forEach((category) => {
+    gridInner.appendChild(createCategoryCard(category));
   });
+
+  gridContainer.appendChild(gridInner);
+
+  // Full-row section at the end (e.g. Lent Menu)
+  if (fullRowCategories.length > 0) {
+    const lentSection = document.createElement("div");
+    lentSection.className = "lent-menu-section";
+    lentSection.innerHTML = '<p class="lent-menu-section-label">Lent Menu</p>';
+    fullRowCategories.forEach((category) => {
+      const card = createCategoryCard(category, true);
+      lentSection.appendChild(card);
+    });
+    gridContainer.appendChild(lentSection);
+  }
 
   // Setup Show All button
   const showAllBtn = document.getElementById("showAllBtn");
@@ -82,6 +73,37 @@ function renderCategoryGrid(categories) {
       showAllCategories();
     });
   }
+}
+
+function createCategoryCard(category, fullRow = false) {
+  const card = document.createElement("div");
+  card.className = "category-card" + (fullRow ? " category-card-full-row" : "");
+  card.setAttribute("data-category", category.id);
+
+  const fallbackGradient =
+    "linear-gradient(135deg, #e4c27a 0%, #8c735b 100%)";
+
+  card.innerHTML = `
+    <div class="category-card-bg">
+      ${
+        category.image
+          ? `<img src="${category.image}" alt="${category.name}">`
+          : `<div class="category-card-gradient" style="background: ${fallbackGradient}"></div>`
+      }
+    </div>
+    <div class="category-card-overlay"></div>
+    <span class="category-card-title">${category.name}</span>
+  `;
+
+  card.addEventListener("click", () => {
+    if (category.id === "drinks-desserts") {
+      window.location.href = "coffee-menu.html";
+      return;
+    }
+    selectCategory(category);
+  });
+
+  return card;
 }
 
 // Select a category from grid

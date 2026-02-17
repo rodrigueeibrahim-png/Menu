@@ -553,7 +553,7 @@ const coffeeMenuData = {
     {
       id: "chivas-regal",
       name: "Chivas Regal",
-      price: 50.0,
+      price: 70.0,
       category: "spirits-bottles",
     },
     {
@@ -831,9 +831,24 @@ const coffeeMenuData = {
     },
     { id: "muffins", name: "Muffins", price: 4.0, category: "desserts" },
     { id: "cookies", name: "Cookies", price: 3.0, category: "desserts" },
-    { id: "cookies-lotus", name: "Cookies Lotus", price: 5.0, category: "desserts" },
-    { id: "cookies-oreo", name: "Cookies Oreo", price: 5.0, category: "desserts" },
-    { id: "cookies-kinder", name: "Cookies Kinder", price: 5.0, category: "desserts" },
+    {
+      id: "cookies-lotus",
+      name: "Cookies Lotus",
+      price: 5.0,
+      category: "desserts",
+    },
+    {
+      id: "cookies-oreo",
+      name: "Cookies Oreo",
+      price: 5.0,
+      category: "desserts",
+    },
+    {
+      id: "cookies-kinder",
+      name: "Cookies Kinder",
+      price: 5.0,
+      category: "desserts",
+    },
     {
       id: "bahamas-cake",
       name: "Bahamas Cake",
@@ -912,6 +927,18 @@ const restoMenuData = {
       id: "drinks-desserts",
       name: "Drinks & Desserts",
       image: "../assets/drinks-and-desserts.jpeg",
+    },
+    {
+      id: "lent-appetisers",
+      name: "Lent Appetisers",
+      image: "../assets/lent-appetisers.png",
+      fullRow: true,
+    },
+    {
+      id: "lent-main-dishes",
+      name: "Lent Main Dishes",
+      image: "../assets/lent-menu.png",
+      fullRow: true,
     },
   ],
   items: [
@@ -1304,6 +1331,76 @@ const restoMenuData = {
       category: "pasta",
       ingredients: "Rose sauce, Penne pasta, Shrimps",
       image: "../assets/Shrimp-rose-pasta.jpeg",
+    },
+
+    // LENT APPETISERS
+    {
+      id: "eggplant-stuffed-baba-ghanouj",
+      name: "Eggplant Stuffed with Baba Ghanouj Served with Tomato Sauce",
+      price: 11.0,
+      category: "lent-appetisers",
+    },
+    {
+      id: "truffle-hummus-falafel",
+      name: "Truffle Hummus with Falafel",
+      price: 9.0,
+      category: "lent-appetisers",
+    },
+    {
+      id: "falafel-hummus-chilly-oil",
+      name: "Falafel Hummus with Chilly Oil",
+      price: 7.0,
+      category: "lent-appetisers",
+    },
+    {
+      id: "cauliflower-smoked-chumichurri",
+      name: "Cauliflower with Smoked Chumichurri",
+      price: 11.0,
+      category: "lent-appetisers",
+    },
+
+    // LENT MAIN DISHES
+    {
+      id: "peters-fish-stuffed-herbs",
+      name: "Peter's Fish Stuffed with Herbs Served with Chumichuri and Tartar Sauce",
+      price: 17.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "shrimp-risotto",
+      name: "Shrimp Risotto",
+      price: 15.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "miso-salmon-red-tahini",
+      name: "Miso Salmon with Red Tahini",
+      price: 28.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "avocado-salmon-tartar",
+      name: "Avocado Salmon Tartar",
+      price: 18.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "fish-chips",
+      name: "Fish & Chips",
+      price: 12.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "fish-burger",
+      name: "Fish Burger",
+      price: 9.0,
+      category: "lent-main-dishes",
+    },
+    {
+      id: "shrimp-provincial",
+      name: "Shrimp Provincial",
+      price: 13.0,
+      category: "lent-main-dishes",
     },
 
     // SHISHA
