@@ -1339,6 +1339,7 @@ const restoMenuData = {
       name: "Eggplant Stuffed with Baba Ghanouj Served with Tomato Sauce",
       price: 11.0,
       category: "lent-appetisers",
+      image: "../assets/eggplant.jpeg",
     },
     {
       id: "truffle-hummus-falafel",
@@ -1351,38 +1352,44 @@ const restoMenuData = {
       name: "Falafel Hummus with Chilly Oil",
       price: 7.0,
       category: "lent-appetisers",
+      image: "../assets/hummus with falafel.jpeg",
     },
     {
       id: "cauliflower-smoked-chumichurri",
       name: "Cauliflower with Smoked Chumichurri",
       price: 11.0,
       category: "lent-appetisers",
+      image: "../assets/cauliflower.jpeg",
     },
 
     // LENT MAIN DISHES
     {
       id: "peters-fish-stuffed-herbs",
       name: "Peter's Fish Stuffed with Herbs Served with Chumichuri and Tartar Sauce",
-      price: 17.0,
+      price: 19.0,
       category: "lent-main-dishes",
+      image: "../assets/peters fish.jpeg",
     },
     {
       id: "shrimp-risotto",
       name: "Shrimp Risotto",
-      price: 15.0,
+      price: 17.0,
       category: "lent-main-dishes",
+      image: "../assets/shrimp orzo.jpeg",
     },
     {
       id: "miso-salmon-red-tahini",
       name: "Miso Salmon with Red Tahini",
       price: 28.0,
       category: "lent-main-dishes",
+      image: "../assets/miso salmon.jpeg",
     },
     {
       id: "avocado-salmon-tartar",
       name: "Avocado Salmon Tartar",
       price: 18.0,
       category: "lent-main-dishes",
+      image: "../assets/avocado salmon tartar.jpeg",
     },
     {
       id: "fish-chips",
