@@ -286,11 +286,7 @@ body.page-ready {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    135deg,
-    rgba(228, 194, 122, 0.1) 0%,
-    rgba(87, 70, 50, 0.1) 100%
-  );
+  background: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
