@@ -1371,8 +1371,8 @@ const restoMenuData = {
       image: "../assets/peters fish.jpeg",
     },
     {
-      id: "shrimp-risotto",
-      name: "Shrimp Risotto",
+      id: "shrimp-orzo",
+      name: "Shrimp Orzo",
       price: 17.0,
       category: "lent-main-dishes",
       image: "../assets/shrimp orzo.jpeg",
