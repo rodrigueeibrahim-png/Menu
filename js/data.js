@@ -171,19 +171,19 @@ const coffeeMenuData = {
     {
       id: "flower-bloom-pot-normal",
       name: "Flower Bloom Pot (Normal)",
-      price: 7.0,
+      price: 8.0,
       category: "tea",
     },
     {
       id: "flower-bloom-pot-blue",
       name: "Flower Bloom Pot (Blue)",
-      price: 7.0,
+      price: 8.0,
       category: "tea",
     },
     {
       id: "flower-bloom-pot-purple",
       name: "Flower Bloom Pot (Purple)",
-      price: 7.0,
+      price: 8.0,
       category: "tea",
     },
 
@@ -209,7 +209,7 @@ const coffeeMenuData = {
     {
       id: "vanilla-frappe",
       name: "Vanilla Frappe",
-      price: 4.5,
+      price: 5.0,
       category: "cold-drinks",
     },
     {
@@ -227,25 +227,25 @@ const coffeeMenuData = {
     {
       id: "iced-latte",
       name: "Iced Latte",
-      price: 4.0,
+      price: 5.0,
       category: "cold-drinks",
     },
     {
       id: "iced-mocha",
       name: "Iced Mocha",
-      price: 4.0,
+      price: 5.0,
       category: "cold-drinks",
     },
     {
       id: "iced-spanish-latte",
       name: "Iced Spanish Latte",
-      price: 4.5,
+      price: 5.0,
       category: "cold-drinks",
     },
     {
       id: "iced-white-mocha",
       name: "Iced White Mocha",
-      price: 4.5,
+      price: 5.0,
       category: "cold-drinks",
     },
     {
@@ -272,7 +272,7 @@ const coffeeMenuData = {
     {
       id: "addon-skimmed-milk",
       name: "Skimmed Milk",
-      price: 0.5,
+      price: 1.0,
       category: "add-on",
     },
     {
@@ -405,7 +405,7 @@ const coffeeMenuData = {
     {
       id: "gin-basil",
       name: "Gin Basil",
-      price: 5.0,
+      price: 6.0,
       category: "spirits-glass",
     },
     {
