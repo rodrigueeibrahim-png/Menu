@@ -1035,7 +1035,7 @@ const restoMenuData = {
     {
       id: "blazing-dynamite-shrimps",
       name: "Blazing Dynamite Shrimps",
-      price: 13.0,
+      price: 14.0,
       category: "starters",
       ingredients: "Breaded shrimps tossed in house dynamite sauce",
       image: "../assets/blazing-dynamite-shrimps.jpeg",
@@ -1043,7 +1043,7 @@ const restoMenuData = {
     {
       id: "avocado-on-toast",
       name: "Avocado On Toast",
-      price: 7.0,
+      price: 8.0,
       category: "starters",
       ingredients: "Avocado mix, cherry tomato & parmesan",
       image: "../assets/avocado-on-toast.jpeg",
@@ -1051,7 +1051,7 @@ const restoMenuData = {
     {
       id: "smoked-salmon-carpaccio",
       name: "Smoked Salmon Carpaccio",
-      price: 18.0,
+      price: 19.0,
       category: "starters",
       ingredients: "Dill, capers, lemon, olive oil & toast",
       image: "../assets/smoked-salmon-carpaccio.jpeg",
@@ -1059,7 +1059,7 @@ const restoMenuData = {
     {
       id: "mozzarella-sticks",
       name: "Mozzarella Sticks",
-      price: 8.0,
+      price: 9.0,
       category: "starters",
       ingredients: "Breaded mozzarella sticks with marinara sauce",
       image: "../assets/mozzarella-sticks.jpeg",
@@ -1088,7 +1088,7 @@ const restoMenuData = {
     {
       id: "tenders",
       name: "Tenders",
-      price: 8.0,
+      price: 9.0,
       category: "starters",
       ingredients: "4 pcs with cup honey mustard sauce",
       image: "../assets/tenders.jpeg",
@@ -1096,7 +1096,7 @@ const restoMenuData = {
     {
       id: "dumplings-shrimps",
       name: "Dumplings Shrimps",
-      price: 14.5,
+      price: 15.0,
       category: "starters",
       image: "../assets/dumplings-shrimps.jpeg",
     },
@@ -1114,7 +1114,7 @@ const restoMenuData = {
     {
       id: "quinoa-bowl",
       name: "Quinoa Bowl",
-      price: 14.0,
+      price: 15.0,
       category: "salads",
       ingredients:
         "Mixed greens, cherry tomato, dry figs, cranberry, almonds & citrus dressing",
@@ -1123,7 +1123,7 @@ const restoMenuData = {
     {
       id: "caesar-royal-chicken",
       name: "Caesar Royal (Add Chicken)",
-      price: 14.0,
+      price: 15.0,
       category: "salads",
       ingredients: "Lettuce, croutons, parmesan & house Caesar sauce + Chicken",
       image: "../assets/caesar-royal-chicken.jpeg",
@@ -1140,7 +1140,7 @@ const restoMenuData = {
     {
       id: "fusion-crab-salad",
       name: "Fusion Crab Salad",
-      price: 14.0,
+      price: 15.0,
       category: "salads",
       ingredients: "Carrot, cucumber, strawberry, cabbage & Asian dressing",
       image: "../assets/fusion-crab-salad.jpeg",
@@ -1150,7 +1150,7 @@ const restoMenuData = {
     {
       id: "margherita-resto",
       name: "Margherita",
-      price: 10.0,
+      price: 11.0,
       category: "pizza",
       ingredients: "Tomato sauce, mozzarella & basil",
       image: "../assets/margherita.jpeg",
@@ -1158,7 +1158,7 @@ const restoMenuData = {
     {
       id: "vegetariana",
       name: "Vegetariana",
-      price: 12.0,
+      price: 13.0,
       category: "pizza",
       ingredients:
         "Zucchini, eggplant, bell peppers, mushroom, tomato sauce & mozzarella",
@@ -1167,7 +1167,7 @@ const restoMenuData = {
     {
       id: "quattro-formaggi",
       name: "Quattro Formaggi",
-      price: 13.0,
+      price: 14.0,
       category: "pizza",
       ingredients: "Mozzarella, gorgonzola, parmesan & formaggio duro",
       image: "../assets/quattro-fromaggi.jpeg",
@@ -1175,7 +1175,7 @@ const restoMenuData = {
     {
       id: "diavola-resto",
       name: "Diavola",
-      price: 14.0,
+      price: 15.0,
       category: "pizza",
       ingredients: "Tomato sauce, salami picante & mozzarella",
       image: "../assets/diavola.jpeg",
@@ -1185,7 +1185,7 @@ const restoMenuData = {
     {
       id: "reis-club-sandwich",
       name: "Rei's Club Sandwich",
-      price: 12.0,
+      price: 13.0,
       category: "sandwiches-burgers",
       ingredients:
         "Smoked turkey, turkey bacon, emmental, lettuce, tomato, pickles, avocado, mayo & Dijon",
@@ -1194,7 +1194,7 @@ const restoMenuData = {
     {
       id: "mighty-steak-sandwich",
       name: "Mighty Steak Sandwich",
-      price: 13.0,
+      price: 14.0,
       category: "sandwiches-burgers",
       ingredients:
         "Beef tenderloin, sourdough, onions, bell peppers, emmental & steak sauce",
@@ -1203,7 +1203,7 @@ const restoMenuData = {
     {
       id: "chicken-avo-wrap",
       name: "The Chicken Avo Wrap",
-      price: 10.0,
+      price: 11.0,
       category: "sandwiches-burgers",
       ingredients:
         "Grilled chicken breast, avocado mix, pickles, lettuce & honey mustard",
@@ -1212,7 +1212,7 @@ const restoMenuData = {
     {
       id: "reis-prime-burger",
       name: "Rei's Prime Burger",
-      price: 12.0,
+      price: 13.0,
       category: "sandwiches-burgers",
       ingredients:
         "Angus beef, cheddar cheese, lettuce, pickles, onion, tomato & house burger sauce",
@@ -1221,7 +1221,7 @@ const restoMenuData = {
     {
       id: "mushroom-burger",
       name: "Mushroom Burger",
-      price: 13.0,
+      price: 14.0,
       category: "sandwiches-burgers",
       ingredients: "Gravy mushroom sauce, Beef patty, Emmental cheese, Buns",
       image: "../assets/mushroom-burger.jpeg",
@@ -1229,7 +1229,7 @@ const restoMenuData = {
     {
       id: "truffle-burger",
       name: "Truffle Burger",
-      price: 14.0,
+      price: 15.0,
       category: "sandwiches-burgers",
       ingredients: "Truffle mayo sauce, Mushrooms, Beef patty, Buns",
       image: "../assets/truffle-burger.jpeg",
@@ -1237,7 +1237,7 @@ const restoMenuData = {
     {
       id: "golden-crispy-burger",
       name: "Golden Crispy Burger",
-      price: 12.0,
+      price: 13.0,
       category: "sandwiches-burgers",
       ingredients:
         "Honey mustard sauce, Chicken crispy, Cheddar slice, Pickles",
@@ -1248,7 +1248,7 @@ const restoMenuData = {
     {
       id: "steak-fries",
       name: "Steak & Fries",
-      price: 19.0,
+      price: 21.0,
       category: "main-dish",
       ingredients: "Mushroom or pepper sauce",
       image: "../assets/steak-fries.jpeg",
@@ -1256,7 +1256,7 @@ const restoMenuData = {
     {
       id: "creamy-chicken-mushroom",
       name: "Creamy Chicken Mushroom",
-      price: 15.0,
+      price: 17.0,
       category: "main-dish",
       ingredients: "Grilled chicken breast, mushroom sauce & fries",
       image: "../assets/creamy-chicken-mushroom.jpeg",
@@ -1264,7 +1264,7 @@ const restoMenuData = {
     {
       id: "grilled-jumbo-shrimps",
       name: "Grilled Jumbo Shrimps",
-      price: 22.0,
+      price: 23.0,
       category: "main-dish",
       ingredients: "Marinated in unique flavors",
       image: "../assets/grilled-jumbo-shrimps.jpeg",
@@ -1272,7 +1272,7 @@ const restoMenuData = {
     {
       id: "grilled-salmon-miso",
       name: "Grilled Salmon Miso",
-      price: 23.0,
+      price: 25.0,
       category: "main-dish",
       ingredients: "With sautéed vegetables",
       image: "../assets/grilled-salmon-miso.jpeg",
@@ -1280,46 +1280,46 @@ const restoMenuData = {
     {
       id: "addon-chicken",
       name: "Chicken",
-      price: 4.0,
+      price: 5.0,
       category: "add-on-resto",
     },
     {
       id: "addon-shrimp",
       name: "Shrimp",
-      price: 4.0,
+      price: 5.0,
       category: "add-on-resto",
     },
     {
       id: "addon-smoked-salmon",
       name: "Smoked Salmon",
-      price: 4.0,
+      price: 5.0,
       category: "add-on-resto",
     },
     {
       id: "linguini-alfredo",
       name: "Linguini Alfredo",
-      price: 15.0,
+      price: 16.0,
       category: "pasta",
       image: "../assets/linguini-alfredo.jpeg",
     },
     {
       id: "penne-arrabbiata",
       name: "Penne Arrabbiata",
-      price: 10.0,
+      price: 12.0,
       category: "pasta",
       image: "../assets/penne-arrabbiata.jpeg",
     },
     {
       id: "linguini-pesto",
       name: "Linguini Pesto",
-      price: 13.0,
+      price: 14.0,
       category: "pasta",
       image: "../assets/linguini-pesto.jpeg",
     },
     {
       id: "truffle-pasta",
       name: "Truffle Pasta",
-      price: 14.0,
+      price: 15.0,
       category: "pasta",
       ingredients: "Mushrooms, With truffle white sauce, Penne pasta",
       image: "../assets/truffle-pasta.jpeg",
@@ -1327,7 +1327,7 @@ const restoMenuData = {
     {
       id: "shrimp-rose-pasta",
       name: "Shrimp Rose Pasta",
-      price: 15.0,
+      price: 16.0,
       category: "pasta",
       ingredients: "Rose sauce, Penne pasta, Shrimps",
       image: "../assets/Shrimp-rose-pasta.jpeg",
@@ -1344,13 +1344,13 @@ const restoMenuData = {
     {
       id: "truffle-hummus-falafel",
       name: "Truffle Hummus with Falafel",
-      price: 9.0,
+      price: 10.0,
       category: "lent-appetisers",
     },
     {
       id: "falafel-hummus-chilly-oil",
       name: "Falafel Hummus with Chilly Oil",
-      price: 7.0,
+      price: 8.0,
       category: "lent-appetisers",
       image: "../assets/hummus with falafel.jpeg",
     },
@@ -1366,14 +1366,14 @@ const restoMenuData = {
     {
       id: "peters-fish-stuffed-herbs",
       name: "Peter's Fish Stuffed with Herbs Served with Chumichuri and Tartar Sauce",
-      price: 19.0,
+      price: 20.0,
       category: "lent-main-dishes",
       image: "../assets/peters fish.jpeg",
     },
     {
       id: "shrimp-orzo",
       name: "Shrimp Orzo",
-      price: 17.0,
+      price: 19.0,
       category: "lent-main-dishes",
       image: "../assets/shrimp orzo.jpeg",
     },
@@ -1387,20 +1387,20 @@ const restoMenuData = {
     {
       id: "avocado-salmon-tartar",
       name: "Avocado Salmon Tartar",
-      price: 18.0,
+      price: 20.0,
       category: "lent-main-dishes",
       image: "../assets/avocado salmon tartar.jpeg",
     },
     {
       id: "fish-chips",
       name: "Fish & Chips",
-      price: 12.0,
+      price: 14.0,
       category: "lent-main-dishes",
     },
     {
       id: "fish-burger",
       name: "Fish Burger",
-      price: 9.0,
+      price: 11.0,
       category: "lent-main-dishes",
     },
     {
